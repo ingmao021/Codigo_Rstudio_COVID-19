@@ -583,19 +583,8 @@ $estadisticas_edad
 - 🎨 Mejoras en el diseño de gráficos
 - 📝 Documentación y ejemplos
 
-## 📜 Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
-
-## 📧 Autores
-
-- **Nombre**: Anderson Mauricio Ordoñez Zuñiga
-- **Nombre**: Benjamin Andres Urbano Zuñiga
-- **rol**: Estudiantes de Ingenieria de Software
-
-> **Nota Importante**: Este análisis es con fines educativos y de investigación. Los resultados deben interpretarse en el contexto Probalistico y Estadistico.
-
-# 🔷Anexos
+# 🔷 Anexos
 
 ## Fórmulas Estadísticas
 
@@ -603,31 +592,25 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 #### Media Aritmética
 
-- **Poblacional:** 
-  ```
- ![image](https://github.com/user-attachments/assets/4d75990d-968c-4ed2-9a9b-5b49a6ce5a63)
+- **Poblacional:**
+  
+  ![image](https://github.com/user-attachments/assets/4d75990d-968c-4ed2-9a9b-5b49a6ce5a63)
 
-  ```
-- **Muestral:** 
-  ```
- ![image](https://github.com/user-attachments/assets/fd574651-4c6a-48aa-93cb-53c35ec66480)
-
-  ```
+- **Muestral:**
+  
+  ![image](https://github.com/user-attachments/assets/fd574651-4c6a-48aa-93cb-53c35ec66480)
 
 > **Descripción:** Suma todos los valores del conjunto de datos y los divide por la cantidad total. Es útil para determinar el valor promedio de la variable.
 
 #### Mediana
 
-- **Si n es impar:** 
-  ```
+- **Si n es impar:**
+  
   ![image](https://github.com/user-attachments/assets/33d109cf-e36e-4244-95d2-ae4199a5e674)
 
-  ```
-- **Si n es par:** 
-  ```
+- **Si n es par:**
+  
   ![image](https://github.com/user-attachments/assets/7a589403-70cd-4bd8-baed-c030d5e72baf)
-
-  ```
 
 > **Descripción:** Representa el valor central del conjunto, que divide la distribución en dos mitades iguales.
 
@@ -640,48 +623,38 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ### 2. Medidas de Dispersión
 
 #### Rango
-```
-![image](https://github.com/user-attachments/assets/e0b14140-089b-4c64-874e-c75171e68001)
 
-```
+![image](https://github.com/user-attachments/assets/e0b14140-089b-4c64-874e-c75171e68001)
 
 > **Descripción:** Indica la diferencia entre el valor máximo y el mínimo.
 
 #### Varianza
 
-- **Poblacional:** 
-  ```
-![image](https://github.com/user-attachments/assets/57811aa8-bfc7-409e-9f3a-c77ff631399b)
+- **Poblacional:**
+  
+  ![image](https://github.com/user-attachments/assets/57811aa8-bfc7-409e-9f3a-c77ff631399b)
 
-  ```
-- **Muestral:** 
-  ```
-![image](https://github.com/user-attachments/assets/2feda120-9218-4043-adea-94349bbc56c1)
-
-  ```
+- **Muestral:**
+  
+  ![image](https://github.com/user-attachments/assets/2feda120-9218-4043-adea-94349bbc56c1)
 
 > **Descripción:** Mide la dispersión de los datos respecto a la media.
 
 #### Desviación Estándar
 
-- **Poblacional:** 
-  ```
+- **Poblacional:**
+  
   ![image](https://github.com/user-attachments/assets/837028cf-ff04-44ef-a739-fcc6d68969d8)
 
-  ```
-- **Muestral:** 
-  ```
+- **Muestral:**
+  
   ![image](https://github.com/user-attachments/assets/ba45482f-25cb-4942-b3c2-f2200489a21e)
-
-  ```
 
 > **Descripción:** Es la raíz cuadrada de la varianza.
 
 #### Coeficiente de Variación (CV)
-```
-![image](https://github.com/user-attachments/assets/072c56ab-a755-4963-a436-b1964ba064ad)
 
-```
+![image](https://github.com/user-attachments/assets/072c56ab-a755-4963-a436-b1964ba064ad)
 
 > **Descripción:** Permite comparar la dispersión relativa entre diferentes conjuntos de datos.
 
@@ -690,23 +663,19 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ### 3. Medidas de Relación y Correlación
 
 #### Coeficiente de Correlación de Pearson
-```
-![image](https://github.com/user-attachments/assets/b4483f5f-0b37-4779-ac61-9f0c7c1abc86)
 
-```
+![image](https://github.com/user-attachments/assets/b4483f5f-0b37-4779-ac61-9f0c7c1abc86)
 
 > **Descripción:** Evalúa la fuerza y dirección de una relación lineal entre dos variables (valor entre -1 y 1).
 
 #### Regresión Lineal Simple
-```
+
 ![image](https://github.com/user-attachments/assets/eb768c66-98a5-4808-9e87-73139d3bdd45)
 
-```
-
 **Donde:**
-```
+
 ![image](https://github.com/user-attachments/assets/5a4e43d4-7859-4dc8-a0b6-fe9bce3d8da6)
-```
+
 > **Descripción:** Modela la relación entre una variable independiente x y una dependiente y.
 
 ---
@@ -714,26 +683,20 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ### 4. Distribuciones de Probabilidad
 
 #### Distribución Normal
-```
-![image](https://github.com/user-attachments/assets/0a022399-eae3-4275-ba16-55c233ad594e)
 
-```
+![image](https://github.com/user-attachments/assets/0a022399-eae3-4275-ba16-55c233ad594e)
 
 > **Descripción:** Modelo común en estadística; datos agrupados alrededor de la media.
 
 #### Distribución de Poisson
-```
+
 ![image](https://github.com/user-attachments/assets/ade5563a-9b09-431e-aee4-dcb5b50beeba)
 
-```
-
-> **Descripción:** Probabilidad de observar k eventos en un intervalo, con tasa promedio λ (lambda)
+> **Descripción:** Probabilidad de observar k eventos en un intervalo, con tasa promedio λ (lambda).
 
 #### Distribución Exponencial
-```
-![image](https://github.com/user-attachments/assets/6dd65b36-1322-4e92-bfa7-5861b15d0974)
 
-```
+![image](https://github.com/user-attachments/assets/6dd65b36-1322-4e92-bfa7-5861b15d0974)
 
 > **Descripción:** Modela el tiempo entre eventos en procesos de Poisson.
 
@@ -743,32 +706,25 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 #### Intervalo de Confianza para la Media
 
-- **Varianza conocida:** 
-  ```
- ![image](https://github.com/user-attachments/assets/51d98fb0-2f6f-4f46-92d0-a1ff1a9f314b)
+- **Varianza conocida:**
+  
+  ![image](https://github.com/user-attachments/assets/51d98fb0-2f6f-4f46-92d0-a1ff1a9f314b)
 
-  ```
-- **Varianza desconocida:** 
-  ```
- ![image](https://github.com/user-attachments/assets/22eb1fe9-b2d8-441f-9554-cdcb503af217)
-
-  ```
+- **Varianza desconocida:**
+  
+  ![image](https://github.com/user-attachments/assets/22eb1fe9-b2d8-441f-9554-cdcb503af217)
 
 > **Descripción:** Estima el rango donde se espera que se encuentre la media poblacional.
 
 #### Prueba t para una muestra
-```
-![image](https://github.com/user-attachments/assets/8c10149b-7f31-45c4-811a-d492d436f453)
 
-```
+![image](https://github.com/user-attachments/assets/8c10149b-7f31-45c4-811a-d492d436f453)
 
 > **Descripción:** Contrasta hipótesis sobre la media cuando la varianza es desconocida.
 
 #### Prueba Chi-Cuadrado (Bondad de Ajuste)
-```
-![image](https://github.com/user-attachments/assets/a312ea56-d7b6-45cd-84f3-745a6584069b)
 
-```
+![image](https://github.com/user-attachments/assets/a312ea56-d7b6-45cd-84f3-745a6584069b)
 
 > **Descripción:** Evalúa si los datos observados difieren significativamente de lo esperado.
 
@@ -777,29 +733,34 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ### 6. Medidas de Forma
 
 #### Coeficiente de Asimetría (Skewness)
-```
-![image](https://github.com/user-attachments/assets/150e0cf1-8e2f-43fb-a5a8-2c1d1fdb08b1)
 
-```
+![image](https://github.com/user-attachments/assets/150e0cf1-8e2f-43fb-a5a8-2c1d1fdb08b1)
 
 > **Descripción:** Indica la simetría de la distribución (positiva: derecha; negativa: izquierda).
 
 #### Coeficiente de Curtosis
-```
+
 ![image](https://github.com/user-attachments/assets/a7e18baf-0f76-4ffb-a126-afb7d4a55433)
 
-```
-
-> **Descripción:** Mide el "apuntamiento" de la distribución. Curtosis > 0 es más concentrada; < 0 más plana.
+> **Descripción:** Mide el "apuntamiento" de la distribución.
+> - **Curtosis > 0:** Distribución más concentrada (leptocúrtica)
+> - **Curtosis < 0:** Distribución más plana (platicúrtica)
+> - **Curtosis = 0:** Distribución normal (mesocúrtica)
 
 ---
 
 ### 7. Teorema de Bayes
-```
+
 ![image](https://github.com/user-attachments/assets/eca402b1-2d7f-43f5-8ea8-46d3281fbb2c)
 
-```
+## 📧 Autores
 
-> **Descripción:** Permite actualizar la probabilidad de un evento con base en nueva evidencia.
+- **Nombre**: Anderson Mauricio Ordoñez Zuñiga
+- **Nombre**: Benjamin Andres Urbano Zuñiga
+- **rol**: Estudiantes de Ingenieria de Software
+- 
+## 📜 Licencia
 
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
 
+> **Nota Importante**: Este análisis es con fines educativos y de investigación. Los resultados deben interpretarse en el contexto Probalistico y Estadistico.
