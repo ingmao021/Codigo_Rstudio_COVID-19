@@ -105,31 +105,145 @@ El archivo `covid_data.csv` contiene las siguientes columnas principales:
 
 ## 📈 Análisis Realizados
 
-### 1. 📊 Análisis Descriptivo
-- Estadísticas de resumen para la variable edad
-- Cálculo de media, mediana, moda, desviación estándar y varianza
-- Análisis de valores faltantes y datos atípicos
+### 1. 📊 Estadística Descriptiva
 
-### 2. 📈 Visualizaciones
+#### Medidas de Tendencia Central
+- **Media, mediana y moda** de variables cuantitativas (edad de los casos)
+- **Análisis por grupos:** Segmentación por departamento, sexo y estado de recuperación
+- **Distribución de frecuencias** para variables categóricas
+
+#### Medidas de Dispersión
+- **Varianza y desviación estándar** para cuantificar la dispersión de los datos
+- **Rango y rango intercuartílico** para identificar la amplitud de variación
+- **Coeficiente de variación** para comparar la dispersión relativa entre grupos
+- **Análisis de valores atípicos** mediante diagramas de caja y bigotes
+
+---
+
+### 2. 🌍 Análisis de Distribuciones de Probabilidad
+
+#### Distribución Geográfica
+- **Análisis espacial** de la incidencia de casos por departamentos y municipios
+- **Mapas de calor** y visualizaciones geográficas de la propagación
+
+#### Distribución de Poisson
+- **Modelado del número de muertes diarias** por COVID-19
+- **Análisis de eventos raros** en periodos específicos
+
+#### Distribución Exponencial
+- **Modelado del tiempo** desde inicio de síntomas hasta fallecimiento
+- **Análisis de supervivencia** y tiempos de espera
+
+#### Distribución Normal
+- **Análisis de la distribución de edad** en personas fallecidas
+- **Pruebas de normalidad** (Shapiro-Wilk y Kolmogorov-Smirnov)
+- **Transformaciones de datos** para aproximar normalidad
+
+---
+
+### 3. 🔬 Inferencia Estadística
+
+#### Estimación por Intervalos
+- **Intervalos de confianza para la media** de edad por grupos
+- **Márgenes de error** para estimaciones poblacionales
+- **Construcción de rangos** de confianza para proporciones
+
+#### Pruebas de Hipótesis
+- **Prueba t para una muestra:** Comparación de medias muestrales vs valores teóricos
+- **Prueba Chi-cuadrado de bondad de ajuste:** Evaluación de modelos teóricos vs datos observados
+- **Pruebas de normalidad:** Shapiro-Wilk y Kolmogorov-Smirnov para validar supuestos
+
+---
+
+### 4. 📈 Análisis de Correlación y Regresión
+
+#### Correlación
+- **Coeficiente de correlación de Pearson** entre variables cuantitativas
+- **Análisis de relaciones** entre edad y tiempo de recuperación
+- **Matrices de correlación** para múltiples variables
+
+#### Regresión Lineal
+- **Regresión lineal simple** para predicción de variables dependientes
+- **Análisis de residuos** y validación de supuestos del modelo
+- **Interpretación de coeficientes** y significancia estadística
+
+---
+
+### 5. 🎲 Simulación Monte Carlo
+
+#### Análisis Prospectivo
+- **Simulación de probabilidades** de fallecimiento vs recuperación por grupo de edad
+- **Modelos predictivos** basados en características demográficas
+- **Escenarios probabilísticos** para diferentes grupos poblacionales
+
+#### Análisis Temporal
+- **Tiempo promedio hasta recuperación** segmentado por edad y sexo
+- **Tiempo promedio hasta fallecimiento** por grupos demográficos
+- **Simulación de trayectorias** de evolución de casos
+
+---
+
+### 6. 📐 Medidas de Forma de Distribución
+
+#### Asimetría
+- **Coeficiente de Asimetría (Skewness)** para evaluar la simetría de distribuciones
+- **Interpretación de sesgos** hacia la izquierda o derecha
+- **Análisis comparativo** entre diferentes variables
+
+#### Curtosis
+- **Coeficiente de Curtosis** para evaluar la concentración de datos
+- **Clasificación de distribuciones:** leptocúrticas, mesocúrticas y platicúrticas
+- **Comparación con distribución normal** estándar
+
+---
+
+### 7. 🧮 Aplicaciones Avanzadas
+
+#### Teorema de Bayes
+- **Cálculos de probabilidad condicional** para eventos COVID-19
+- **Actualización de probabilidades** con nueva evidencia
+- **Aplicación en diagnóstico** y predicción de resultados
+
+#### Análisis de Datos Faltantes
+- **Identificación y cuantificación** de valores ausentes
+- **Estrategias de imputación** para variables críticas
+- **Análisis de patrones** de datos faltantes
+
+---
+
+### 8. 📊 Visualización y Presentación
+
+#### Gráficos Descriptivos
+- **Histogramas y diagramas de densidad** para variables continuas
+- **Gráficos de barras y sectores** para variables categóricas
+- **Diagramas de caja** para comparar distribuciones entre grupos
+
+#### Gráficos Analíticos
+- **Gráficos de dispersión** con líneas de regresión
+- **Mapas de calor** para matrices de correlación
+- **Gráficos de series de tiempo** para evolución temporal
+
+#### Dashboards Interactivos
+- **Visualizaciones dinámicas** con filtros por región y período
+- **Métricas en tiempo real** de indicadores clave
+- **Comparaciones interactivas** entre departamentos y municipios
+
+### 9. 📈 Visualizaciones
 - **Histograma** de distribución de edad con medidas de tendencia central
 - **Boxplot** comparativo por estado del paciente
 - **Diagrama de dispersión** edad vs. fecha de diagnóstico
 - **Gráficos temporales** de evolución de casos
 
-### 3. 📐 Ajuste de Distribuciones
+### 10. 📐 Ajuste de Distribuciones
 - **Distribución de Poisson** para número de muertes diarias
 - **Distribución Exponencial** para tiempo desde síntomas hasta fallecimiento
 - **Pruebas de bondad de ajuste**
 
-### 4. 🔬 Inferencia Estadística
+### 11. 🔬 Inferencia Estadística
 - **Prueba t de Student** para comparar edades entre recuperados y fallecidos
 - **Análisis de correlación** entre edad y días de recuperación
 - **Intervalos de confianza**
 
-### 5. 🎲 Simulación Monte Carlo
-- Proyecciones por grupo de edad (0-18, 19-40, 41-60, 61-80, 81+)
-- 10,000 iteraciones por grupo para estimar probabilidades
-- Análisis de incertidumbre
 
 ## 💻 Código Completo
 
