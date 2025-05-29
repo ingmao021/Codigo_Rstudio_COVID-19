@@ -574,15 +574,6 @@ $estadisticas_edad
 - **Interpretar con contexto**: Los resultados dependen de la calidad de los datos
 - **Actualizar regularmente**: Repetir análisis con nuevos datos
 
-## 🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Para contribuir:
-
-1. **Fork** el repositorio
-2. **Crea** una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** a la rama (`git push origin feature/AmazingFeature`)
-5. **Abre** un Pull Request
 
 ### Ideas para Contribuir
 - 📊 Nuevas visualizaciones
@@ -595,31 +586,12 @@ $estadisticas_edad
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
 
-## 📧 Contacto
+## 📧 Autores
 
-- **Autor**: [Tu Nombre]
-- **Email**: [tu.email@ejemplo.com]
-- **GitHub**: [@tu-usuario](https://github.com/tu-usuario)
-- **LinkedIn**: [Tu perfil](https://linkedin.com/in/tu-perfil)
+- **Nombre**: Anderson Ordoñez
+- - **Nombre**: Benjamin Andres
+- **rol**: Estudiantes de Ingenieria de Software
 
-## 🙏 Agradecimientos
 
-- [**R Core Team**](https://www.r-project.org/) por el lenguaje R
-- [**Tidyverse**](https://www.tidyverse.org/) por las herramientas de análisis
-- [**ggplot2**](https://ggplot2.tidyverse.org/) por las capacidades de visualización
-- **Comunidad R** por el apoyo continuo
 
----
-
-<div align="center">
-
-**⭐ Si este proyecto te fue útil, ¡considera darle una estrella! ⭐**
-
-![GitHub stars](https://img.shields.io/github/stars/tu-usuario/covid-analysis-r?style=social)
-![GitHub forks](https://img.shields.io/github/forks/tu-usuario/covid-analysis-r?style=social)
-
-</div>
-
----
-
-> **Nota Importante**: Este análisis es con fines educativos y de investigación. Los resultados deben interpretarse en el contexto médico y epidemiológico adecuado. No sustituye el consejo médico profesional.
+> **Nota Importante**: Este análisis es con fines educativos y de investigación. Los resultados deben interpretarse en el contexto probalistico y estadistico.
