@@ -51,16 +51,57 @@ install.packages(c(
 
 ## 📊 Estructura de Datos
 
-El archivo `covid_data.csv` debe contener las siguientes columnas:
+El archivo `covid_data.csv` contiene las siguientes columnas principales:
 
+### Variables de Identificación y Ubicación
+| Columna | Tipo | Descripción | Ejemplo |
+|---------|------|-------------|---------|
+| `id_de_caso` | Numérico | Identificador único del caso | 123456 |
+| `departamento` | Categórico | Código del departamento | 52 |
+| `departamento_nom` | Texto | Nombre del departamento | NARIÑO |
+| `ciudad_municipio` | Categórico | Código del municipio | 52001 |
+| `ciudad_municipio_nom` | Texto | Nombre del municipio | PASTO |
+
+### Variables Demográficas
 | Columna | Tipo | Descripción | Ejemplo |
 |---------|------|-------------|---------|
 | `edad` | Numérico | Edad del paciente | 45 |
-| `estado` | Categórico | "Recuperado" o "Fallecido" | Recuperado |
+| `unidad_medida` | Categórico | Unidad de medida de la edad | 1 (años) |
+| `sexo` | Categórico | Sexo del paciente | F/M |
+| `per_etn_` | Categórico | Código de pertenencia étnica | 6 |
+| `nom_grupo_` | Texto | Nombre del grupo étnico | OTROS |
+
+### Variables de Estado y Evolución
+| Columna | Tipo | Descripción | Ejemplo |
+|---------|------|-------------|---------|
+| `estado` | Categórico | Estado actual del caso | Recuperado/Fallecido |
+| `recuperado` | Categórico | Indicador de recuperación | Recuperado/N/A |
+| `ubicacion` | Categórico | Ubicación del paciente | Casa/Hospital |
+| `tipo_recuperacion` | Categórico | Tipo de recuperación | PCR |
+
+### Variables de Fechas
+| Columna | Tipo | Descripción | Ejemplo |
+|---------|------|-------------|---------|
+| `fecha_reporte_web` | Fecha | Fecha de reporte en web | 2023-03-16 |
+| `fecha_de_notificaci_n` | Fecha | Fecha de notificación | 2023-03-15 |
+| `fecha_inicio_sintomas` | Fecha | Fecha de inicio de síntomas | 2023-03-10 |
 | `fecha_diagnostico` | Fecha | Fecha de diagnóstico | 2023-03-15 |
-| `fecha_sintomas` | Fecha | Fecha de inicio de síntomas | 2023-03-10 |
-| `fecha_fallecimiento` | Fecha | Fecha de fallecimiento | 2023-03-25 |
-| `fecha_recuperacion` | Fecha | Fecha de recuperación | 2023-03-20 |
+| `fecha_muerte` | Fecha | Fecha de fallecimiento | 2023-03-25 |
+| `fecha_recuperado` | Fecha | Fecha de recuperación | 2023-03-20 |
+
+### Variables de Contexto
+| Columna | Tipo | Descripción | Ejemplo |
+|---------|------|-------------|---------|
+| `fuente_tipo_contagio` | Categórico | Fuente del contagio | Comunitaria |
+| `pais_viajo_1_cod` | Categórico | Código del país de viaje | 170 |
+| `pais_viajo_1_nom` | Texto | Nombre del país de viaje | COLOMBIA |
+
+### Notas Importantes:
+- **Datos faltantes:** Muchas columnas contienen valores `N/A` o vacíos
+- **Fechas:** Formato YYYY-MM-DD
+- **Estados válidos:** "Recuperado", "Fallecido", "Activo"
+- **Sexo:** "F" (Femenino), "M" (Masculino)
+- **Total de variables:** 23 columnas en el dataset
 
 ## 📈 Análisis Realizados
 
