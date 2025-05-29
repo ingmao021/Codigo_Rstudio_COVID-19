@@ -758,7 +758,7 @@ $estadisticas_edad
 - **Nombre**: Anderson Mauricio Ordoñez Zuñiga
 - **Nombre**: Benjamin Andres Urbano Zuñiga
 - **rol**: Estudiantes de Ingenieria de Software
-- 
+
 ## 📜 Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
