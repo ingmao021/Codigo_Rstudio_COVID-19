@@ -4,7 +4,7 @@
 [![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)](https://www.rstudio.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Análisis estadístico de datos COVID-19 utilizando R, se realizo el consumo de la api "https://www.datos.gov.co/resource/gt2j-8ykr.csv" que nos devuelve un archivo csv con 100 datos.
+> Análisis estadístico de datos COVID-19 utilizando R, se realizo el consumo de la api "https://www.datos.gov.co/resource/gt2j-8ykr.csv" que nos devuelve un archivo csv con 1000 datos.
 
 ## 📋 Tabla de Contenidos
 
