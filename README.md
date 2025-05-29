@@ -228,23 +228,6 @@ El archivo `covid_data.csv` contiene las siguientes columnas principales:
 - **Métricas en tiempo real** de indicadores clave
 - **Comparaciones interactivas** entre departamentos y municipios
 
-### 9. 📈 Visualizaciones
-- **Histograma** de distribución de edad con medidas de tendencia central
-- **Boxplot** comparativo por estado del paciente
-- **Diagrama de dispersión** edad vs. fecha de diagnóstico
-- **Gráficos temporales** de evolución de casos
-
-### 10. 📐 Ajuste de Distribuciones
-- **Distribución de Poisson** para número de muertes diarias
-- **Distribución Exponencial** para tiempo desde síntomas hasta fallecimiento
-- **Pruebas de bondad de ajuste**
-
-### 11. 🔬 Inferencia Estadística
-- **Prueba t de Student** para comparar edades entre recuperados y fallecidos
-- **Análisis de correlación** entre edad y días de recuperación
-- **Intervalos de confianza**
-
-
 ## 💻 Código Completo
 
 ```r
