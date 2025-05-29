@@ -17,6 +17,7 @@
 - [📊 Visualizaciones](#-visualizaciones)
 - [🔬 Metodología](#-metodología)
 - [📝 Resultados](#-resultados)
+- [🔷 Resultados](#-anexos)
 
 ## 🎯 Descripción
 
